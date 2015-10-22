@@ -4,12 +4,13 @@
   "description": "Angular Quickstart Tutorial from https://angular.io/docs/ts/latest/quickstart.html",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
   },
   "keywords": [],
   "repository": "https://github.com/ckatzorke/angular2-quickstart.git",
   "author": "Christian Katzorke <ckatzorke@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "readme": "README.md",
   "dependencies": {
     "angular2": "2.0.0-alpha.44",
